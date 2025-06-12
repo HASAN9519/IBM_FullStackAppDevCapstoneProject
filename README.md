@@ -1,1 +1,1 @@
-# coding-project-template
+### Django project with different function

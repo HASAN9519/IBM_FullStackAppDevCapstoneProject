@@ -22,6 +22,10 @@ email: <shehab10111995@gmail.com>
 
 Password: dragonball95
 
+
+### requirement install
+python -m pip install -U -r requirements.txt 
+
 ### Create initial migrations and generate the database schema
 python manage.py makemigrations
 
@@ -29,3 +33,9 @@ python manage.py migrate
 
 ### Start the development server, shift+< to inclose them in <>
 python manage.py runserver
+
+
+### npm required to use react as frontend, following command creates node modules folder which consumes a lot of memory
+
+npm install
+npm run build

@@ -39,3 +39,4 @@ python manage.py runserver
 
 npm install
 npm run build
+
